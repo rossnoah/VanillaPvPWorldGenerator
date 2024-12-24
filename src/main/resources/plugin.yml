@@ -1,0 +1,5 @@
+name: VanillaPvPWorldGenerator
+version: '${project.version}'
+main: dev.noah.vanillapvpworldgenerator.VanillaPvPWorldGenerator
+api-version: '1.19'
+load: STARTUP
