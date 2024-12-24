@@ -6,12 +6,12 @@ import org.bukkit.generator.WorldInfo;
 
 import java.util.Random;
 
-public class CustomChunkGenerator extends ChunkGenerator {
+public class DesertChunkGenerator extends ChunkGenerator {
     private final FastNoiseLite terrainNoise = new FastNoiseLite(1337);
     private final FastNoiseLite terrainNoise2 = new FastNoiseLite(1337 * 1337);
     private final FastNoiseLite detailNoise = new FastNoiseLite((int) (1337 * 3.1415926));
 
-    public CustomChunkGenerator() {
+    public DesertChunkGenerator() {
         // Set frequencies
         detailNoise.SetFrequency(0.05f);
 
