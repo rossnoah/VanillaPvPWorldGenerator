@@ -27,6 +27,12 @@ public final class VanillaPvPWorldGenerator extends JavaPlugin {
                 return new PlainsChunkGenerator();
             case "desert":
                 return new DesertChunkGenerator();
+            case "badlands":
+                return new BadlandsChunkGenerator();
+            case "snow":
+                return new SnowChunkGenerator();
+            case "mushroom":
+                return new MushroomChunkGenerator();
             default:
                 return null;
         }
@@ -40,6 +46,12 @@ public final class VanillaPvPWorldGenerator extends JavaPlugin {
                 return new PlainsWorldBiome();
             case "desert":
                 return new DesertWorldBiome();
+            case "badlands":
+                return new BadlandsWorldBiome();
+            case "snow":
+                return new SnowWorldBiome();
+            case "mushroom":
+                return new MushroomWorldBiome();
             default:
                 return null;
         }
